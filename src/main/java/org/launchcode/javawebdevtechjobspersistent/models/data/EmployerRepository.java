@@ -8,5 +8,6 @@ import javax.transaction.Transactional;
 import java.util.List;
 
 @Repository
+@Transactional
 public interface EmployerRepository extends CrudRepository<Employer, Integer> {
 }
